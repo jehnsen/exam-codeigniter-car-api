@@ -13,3 +13,15 @@ How to setup the REST API Library:
  *Server is now running @ port 5000
 
  *http://localhost:5000
+
+
+
+ *Here's the create table script
+
+ CREATE TABLE `tbl_cars` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `make` varchar(155) DEFAULT NULL,
+  `model` varchar(155) DEFAULT NULL,
+  `type` varchar(55) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1
